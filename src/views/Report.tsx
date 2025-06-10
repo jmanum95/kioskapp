@@ -23,7 +23,7 @@ export default function Report() {
 
   if (submitted) {
     return (
-      <div className="max-w-md mx-auto p-6 bg-white dark:bg-gray-800 rounded shadow text-center">
+      <div className="max-w-md mx-auto p-6 bg-white rounded shadow text-center">
         ¡Reporte enviado! Gracias por tu ayuda.
       </div>
     );
@@ -32,7 +32,7 @@ export default function Report() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-md mx-auto p-6 bg-white dark:bg-gray-800 rounded shadow flex flex-col gap-4"
+      className="max-w-md mx-auto p-6 bg-white rounded shadow flex flex-col gap-4"
     >
       <h2 className="text-2xl font-bold mb-2">Reportar un problema</h2>
       <input

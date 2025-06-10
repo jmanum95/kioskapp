@@ -27,7 +27,7 @@ export default function Login() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-xs mx-auto mt-16 p-6 bg-white dark:bg-gray-800 rounded shadow flex flex-col gap-4"
+      className="max-w-xs mx-auto mt-16 p-6 bg-white rounded shadow flex flex-col gap-4"
     >
       <h2 className="text-2xl font-bold mb-2 text-center">Iniciar sesión</h2>
       <input

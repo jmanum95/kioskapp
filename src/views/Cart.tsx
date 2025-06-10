@@ -85,7 +85,7 @@ export default function Cart() {
       {/* Panel de pago */}
       {showPanel && (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-          <div className="bg-white dark:bg-gray-900 p-6 rounded shadow-lg w-full max-w-xs relative">
+          <div className="bg-white p-6 rounded shadow-lg w-full max-w-xs relative">
             <button
               className="absolute top-2 right-2 text-gray-400 hover:text-gray-700"
               onClick={() => setShowPanel(false)}
